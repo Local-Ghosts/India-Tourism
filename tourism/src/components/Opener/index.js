@@ -2,16 +2,34 @@ import "./index.css";
 import Display from "../Display";
 import Typography from "../Typography";
 import Map from "../Map";
+import ImgMediaCard from '../card/ImgMediaCard.jsx';
+import { data } from '../card/data';
+import Carousel from 'react-elastic-carousel';
 
 const Opener = () => {
+    let cards = data.map(item => {
+    return <ImgMediaCard item = {item}/>
+  })
+
+  const breakPoints = [
+  { width: 1, itemsToShow: 1},
+  {width: 500, itemsToSHow: 2},
+  { width: 750, itemsToShow: 2.8 },
+  { width: 1130, itemsToShow: 3.8 },
+];
+
   return (
     <div>
       <div class="page">
-        {/*<Display />*/}
+        <Display />
         <Typography description="Popular Destinations"/>
+        <div className="cards">
+          <Carousel breakPoints={breakPoints}>
+          {cards}
+          </Carousel>
+        </div>
         <Typography description="Know More..."/>
-
-        <Map/>
+        <Map />
       </div>
       <div id="splash">
         <div class="anim">

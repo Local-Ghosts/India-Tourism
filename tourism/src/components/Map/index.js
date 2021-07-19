@@ -3,5 +3,4 @@ const Map = () => {
 		<div id="map"></div>
 	);
 }	
-
 export default Map;

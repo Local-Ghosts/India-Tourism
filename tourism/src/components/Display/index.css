@@ -163,6 +163,11 @@ h1.main, p.demos {
 	-ms-animation-delay: 14s;
 	animation-delay: 14s;
 }
+
+.sp-container h2.frame-5 span {
+	display: none;
+}
+
 .sp-globe {
 	position: absolute;
 	width: 282px;
@@ -194,7 +199,7 @@ h1.main, p.demos {
 	width: 100px;
 	height: 100px;
 	background: #fff;
-	color: #3f1616;
+	color: #fff;
 	font-size: 25px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
