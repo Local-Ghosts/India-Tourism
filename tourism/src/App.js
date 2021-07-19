@@ -1,10 +1,18 @@
 import './App.css';
+import Navbar from './Components/NavBar';
+import Form from './Components/Form';
 
 function App() {
   return (
     <div className="App">
-      <h1>Landing Page</h1>
-    </div>
+     <div className="Navbar">
+      <Navbar></Navbar>
+      </div>
+
+      </div>
+
+
+    
   );
 }
 
