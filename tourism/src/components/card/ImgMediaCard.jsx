@@ -1,6 +1,5 @@
 import "./card.css"
 
-
 export default function ImgMediaCard(props) {
 
   const styles = {

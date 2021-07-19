@@ -5,6 +5,7 @@ import Map from "../Map";
 import ImgMediaCard from '../card/ImgMediaCard.jsx';
 import { data } from '../card/data';
 import Carousel from 'react-elastic-carousel';
+import Navbar from '../Navbar';
 
 const Opener = () => {
     let cards = data.map(item => {
@@ -21,14 +22,15 @@ const Opener = () => {
   return (
     <div>
       <div class="page">
+        <Navbar />
         <Display />
-        <Typography description="Popular Destinations"/>
+        <Typography padding="50%" description="Popular Destinations"/>
         <div className="cards">
           <Carousel breakPoints={breakPoints}>
           {cards}
           </Carousel>
         </div>
-        <Typography description="Know More..."/>
+        <Typography padding="10%" description="Know More..."/>
         <Map />
       </div>
       <div id="splash">
