@@ -1,9 +1,10 @@
 import './App.css';
-import Display from "./components/Display";
+import Opener from "./components/Opener";
+
 function App() {
   return (
     <div className="App">
-      <Display />
+      <Opener />
     </div>
   );
 }
