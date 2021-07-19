@@ -1,9 +1,9 @@
 import './App.css';
-
+import Display from "./components/Display";
 function App() {
   return (
     <div className="App">
-      <h1>Landing Page</h1>
+      <Display />
     </div>
   );
 }
