@@ -1,5 +1,6 @@
 import './App.css';
 import ImgMediaCard from './components/Card/ImgMediaCard'
+import MediaCard from './components/Card2/Card2'; 
 import { data } from './components/Card/data.js'
 import Carousel from 'react-elastic-carousel';
 
@@ -23,6 +24,9 @@ function App() {
           {cards}
         </Carousel>
       </div>
+      {/* <div className="cards2">
+        <MediaCard />
+      </div> */}
     </div>
   );
 }
