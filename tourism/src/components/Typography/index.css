@@ -1,0 +1,12 @@
+h1 {
+	padding: 0;
+	margin-left: 20px;	
+    font-family: cursive;
+    font-size: 7em;
+    color: #471337;
+    text-shadow: 
+     	4px 4px 0 #b13254, 
+        8px 8px 0 #ff5349, 
+        12px 12px 0 #ff9248;
+}
+
