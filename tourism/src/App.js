@@ -1,9 +1,10 @@
 import './App.css';
+import Loader from './components/Loader';
 
 function App() {
   return (
     <div className="App">
-      <h1>Landing Page</h1>
+      <Loader />
     </div>
   );
 }
